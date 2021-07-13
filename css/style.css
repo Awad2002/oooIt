@@ -97,6 +97,17 @@ section.projects .proj-item h5 {
 }
 /* End Projects */
 
+/* Start Clients */
+section.clients {
+    background-color: #141414;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+section.clients .owl-carousel .item img {
+
+}
+/* End Clients */
+
 /* Start Classes */
 .center {
     position: absolute;
