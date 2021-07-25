@@ -113,6 +113,10 @@ section.clients {
 }
 /* end testm */
 
+footer {
+    background-color: #020202;
+}
+
 /* Start Classes */
 .center {
     position: absolute;
