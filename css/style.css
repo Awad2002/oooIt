@@ -159,4 +159,10 @@ h2 {
     footer input,select {
         margin-bottom: 12px !important;
     }
+    .navbar-nav {
+        padding: 0 !important;
+    }
+    .navbar-light .navbar-toggler {
+        z-index: 1000000 !important;
+    }
 }
