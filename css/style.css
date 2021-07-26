@@ -69,7 +69,9 @@ section.services .ser-item h4 {
 section.about {
     background-color: #141414;
 }
-
+section.about img.zz {
+    width: 100%;
+}
 section.about .right .about-row .col-3 img {
     width: 51%;
     margin-bottom: 15px;
