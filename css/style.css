@@ -36,7 +36,6 @@ section.hero a {
     border-radius: 5px;
     display: inline-block;
     padding: 15px 44px;
-    transition: 0.5s;
     font-weight: 500;
 }
 section.hero a:hover {
@@ -135,3 +134,29 @@ h2 {
     color: #000 !important;
 }
 /* End Classes */
+
+
+@media screen and (max-width: 480px) {
+    .hero {
+        height: 100vh !important;
+        padding-top: 32px !important;
+    }
+    .hero .blabla {
+        width: 100% !important;
+    }
+    .hero .blabla h1 {
+        font-size: 40px !important;
+    }
+    .hero .blabla p {
+        font-size: 22px !important;
+    }
+    .owl-carousel .item {
+        padding: 22px !important;
+    }
+    .item .test-item {
+        padding: 20px !important;
+    }
+    footer input,select {
+        margin-bottom: 12px !important;
+    }
+}
