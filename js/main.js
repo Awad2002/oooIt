@@ -31,3 +31,21 @@ $('.owl-carousel2').owlCarousel({
         }
     }
 })
+
+$(document).ready( function () {
+    $('#ccv').submit( function () {
+      var formdata = $(this).serialize();
+      $.ajax({
+          type: "POST",
+          url: "https://formsubmit.co/hello@000itkw.com",
+          data: formdata,
+       });
+      return false;
+    });
+  });
+
+  $(document).ready( function () {
+    $( ".faq-item" ).click(function() {
+        $(this).toggleClass('expanded');
+      });
+  });

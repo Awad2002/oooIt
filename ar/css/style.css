@@ -1,6 +1,8 @@
+html {
+    scroll-behavior: smooth;
+  }
 body {
     font-family: 'Cairo', sans-serif;
-    height: 5000px;
     background-color: #f9f9f9;
 }
 
@@ -19,13 +21,30 @@ form .nav-link {
     z-index: 1000000 !important;
 }
 /* End Nav */
-
+.nav-btn {
+    padding: 12px 33px;
+    font-size: 15px;
+    color: black;
+    font-weight: 600;
+    border-radius: 6px;
+    border: 1px solid #000;
+    transition: 0.2s;
+    box-sizing: border-box;
+}
+.nav-btn:hover {
+background-color: black;
+color: #fff;
+}
 /* Start Hero */
+#particles-js {
+    height: 100%;
+    width: 100%;
+}
 section.hero {
     background-image: url(../img/hero-back.png);
     background-position: top;
     background-size: cover;
-    height: 100vh;
+    height: 105vh;
     background-repeat: no-repeat;
 }
 section.hero img {
@@ -156,6 +175,9 @@ h2 {
     .owl-carousel .item {
         padding: 22px !important;
     }
+    .navbar {
+        z-index: 10000000000000000 !important;
+    }
     .item .test-item {
         padding: 20px !important;
     }
@@ -186,27 +208,29 @@ h2 {
     font-size: 20px;
   }
   
-  .icon-bar a:hover {
-    background-color: #000;
+  .whatsapp:hover , .linkedin:hover , .instagram:hover {
+    background-color: #fff;
+    color: #000 !important;
   }
-  
+
+
   .whatsapp {
-    background: #4cca5a;
+    background: #000;
     color: white;
   }
   
   .twitter {
-    background: #55ACEE;
+    background: #000;
     color: white;
   }
   
   .instagram {
-    background: #405DE6;
+    background: #000;
     color: white;
   }
   
   .linkedin {
-    background: #007bb5;
+    background: #000;
     color: white;
   }
   

@@ -1,12 +1,14 @@
+html {
+    scroll-behavior: smooth;
+  }
 body {
-    font-family: 'Montserrat', sans-serif;
-    height: 5000px;
+    font-family: 'Cairo', sans-serif;
     background-color: #f9f9f9;
 }
 
 /* Start Nav */
 .nav-item {
-    margin-right: 26px;
+    margin-left: 26px;
 }
 .nav-item .nav-link {
     font-weight: 600;
@@ -15,9 +17,16 @@ body {
 form .nav-link {
     font-family: cairo;
 }
+.navbar-light .navbar-toggler {
+    z-index: 1000000 !important;
+}
 /* End Nav */
 
 /* Start Hero */
+#particles-js {
+    height: 100%;
+    width: 100%;
+}
 section.hero {
     background-image: url(../img/hero-back.png);
     background-position: top;
@@ -72,14 +81,14 @@ section.about {
 section.about img.zz {
     width: 100%;
 }
-section.about .right .about-row .col-3 img {
+section.about .left .about-row .col-3 img {
     width: 51%;
     margin-bottom: 15px;
 }
-section.about .right .about-row .col-3 h5 {
+section.about .left .about-row .col-3 h5 {
     font-size: 18px;
 }
-section.about .right .title {
+section.about .title {
     font-size: 34px;
     font-weight: 500;
 }
@@ -130,16 +139,50 @@ h2 {
 .mt-80 {
     margin-top: 100px;
 }
+.mt-140 {
+    margin-top: 140px;
+}
 .test-black {
     color: #000 !important;
 }
 /* End Classes */
 
+.nav-btn {
+    padding: 11px 46px;
+    font-size: 15px;
+    color: black;
+    font-weight: 600;
+    border-radius: 6px;
+    border: 1px solid #000;
+    transition: 0.2s;
+    box-sizing: border-box;
+}
+.nav-btn:hover {
+background-color: black;
+color: #fff;
+}
 
+.faq-item .fa-angle-up {
+    display: none !important;
+}
+.faq-item p {
+    display: none !important;
+}
+
+.faq-item.expanded .fa-angle-up {
+    display: inline-block !important;
+}
+
+.faq-item.expanded i.fa-angle-down {
+    display: none !important;
+}
+
+.faq-item.expanded p {
+    display: block !important;
+}
 @media screen and (max-width: 480px) {
     .hero {
-        height: 100vh !important;
-        padding-top: 32px !important;
+        height: 105vh !important;
     }
     .hero .blabla {
         width: 100% !important;
@@ -162,14 +205,11 @@ h2 {
     .navbar-nav {
         padding: 0 !important;
     }
-    .navbar-light .navbar-toggler {
-        z-index: 1000000 !important;
+    .navbar {
+        z-index: 10000000000000000 !important;
     }
 }
-#particles-js {
-    height: 100%;
-    width: 100%;
-}
+
 /* Socil Media Icons */
 .icon-bar {
     position: fixed;
@@ -189,27 +229,29 @@ h2 {
     font-size: 20px;
   }
   
-  .icon-bar a:hover {
-    background-color: #000;
+  .whatsapp:hover , .linkedin:hover , .instagram:hover {
+    background-color: #fff;
+    color: #000 !important;
   }
-  
+
+
   .whatsapp {
-    background: #4cca5a;
+    background: #000;
     color: white;
   }
   
   .twitter {
-    background: #55ACEE;
+    background: #000;
     color: white;
   }
   
   .instagram {
-    background: #405DE6;
+    background: #000;
     color: white;
   }
   
   .linkedin {
-    background: #007bb5;
+    background: #000;
     color: white;
   }
   
@@ -219,6 +261,6 @@ h2 {
   }
   
   .content {
-    margin-left: 75px;
+    margin-right: 75px;
     font-size: 30px;
   }
