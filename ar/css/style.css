@@ -6,6 +6,25 @@ body {
     background-color: #f9f9f9;
 }
 
+.faq-item .fa-angle-up {
+    display: none !important;
+}
+.faq-item p {
+    display: none !important;
+}
+
+.faq-item.expanded .fa-angle-up {
+    display: inline-block !important;
+}
+
+.faq-item.expanded i.fa-angle-down {
+    display: none !important;
+}
+
+.faq-item.expanded p {
+    display: block !important;
+}
+
 /* Start Nav */
 .nav-item {
     margin-right: 26px;
@@ -154,6 +173,9 @@ h2 {
 }
 .test-black {
     color: #000 !important;
+}
+.mt-140 {
+    margin-top: 140px;
 }
 /* End Classes */
 

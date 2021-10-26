@@ -264,3 +264,7 @@ color: #fff;
     margin-right: 75px;
     font-size: 30px;
   }
+
+  .clients .owl-carousel .item img {
+      width: 183px;
+  }
